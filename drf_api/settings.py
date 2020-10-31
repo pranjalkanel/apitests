@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '&(0o2*1iflp8z^c=xjhdw0c#@-uc+eqmu@*=+lyg$=k5#!6y6w'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.1.1','127.0.0.1','localhost']
+ALLOWED_HOSTS = ['summer-api-test.herokuapp.com/','127.0.0.1','localhost']
 
 
 # Application definition
